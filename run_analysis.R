@@ -54,7 +54,7 @@ d <- rbind(dTrain, dTest)
 activityList <- read.table("./UCI HAR Dataset/activity_labels.txt", sep="")
 for(i in 1:6) {d$activity <- gsub(activityList[i, 1], activityList[i, 2], d$activity)}
 
-## Save intermediate result to "ProjectResult1.txt" file
+## Save interim  result to "ProjectResult1.txt" file
 write.table(d, file = "ProjectResult1.txt", sep = " ", row.names = FALSE, col.names = TRUE)
 
 ## Requirement 5: Creating a second, independent tidy data set with the average of each variable for each activity and each subject
