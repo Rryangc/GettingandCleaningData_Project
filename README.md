@@ -18,7 +18,7 @@ From the project submission link:
 How to validate my script ('run_analysis.R') and the data result('rojectResult2.txt'):
 ======================================================================================
 
-- Download the R script, 'run_analysis.R' and save it to the same directory you unzip the project dataset, 'UCI HAR Dataset'.
+- Download the R script, 'run_analysis.R' and save it to the same directory you unzip the project dataset, 'UCI HAR Dataset'. Or you can create this file and copy the code from Github.
   Please note that it should be the parent directory of README file of UCI HAR Dataset. 
   The script using this path to load the data: ./UCI HAR Dataset/...', ./UCI HAR Dataset/train/...' or './UCI HAR Dataset/test/...'
   If you use dos command line you can see something like this:
