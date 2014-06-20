@@ -55,7 +55,8 @@ How to validate my script ('run_analysis.R') and the data result('rojectResult2.
   The 2nd file contains the result from Tast/Requirement #5 
   
 - The second file generated, 'ProjectResult2.txt' should be identical to the file loaded to project link.
-  You can use read.table command to load them to R for further verification
+  You can use read.table command to load them to R for further verification. The R command is:
+  d <- read.table("ProjectResult2.txt", sep=" ", strip.white=TRUE)
 
  
 
