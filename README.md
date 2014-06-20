@@ -46,13 +46,13 @@ How to validate my script ('run_analysis.R') and the data result('rojectResult2.
 						   
 - Open R console
 
-- From R console, setup the working directory to the place you saved the R script file;  > setwd("<folder name>")
+- From R console, setup the working directory to the place you saved the R script file:  > setwd("...")
 
-- From R console run:  > source("run_analysis.R")	
+- From R console, run:  > source("run_analysis.R")	
 
 - Two files will be created in you working directory: ProjectResult1.txt and ProjectResult2.txt
-  The 1st file contains the result from Tast/Requirement 1 to 4 
-  The 2nd file contains the result from Tast/Requirement 5 
+  The 1st file contains the result from Tast/Requirement #1 to #4 
+  The 2nd file contains the result from Tast/Requirement #5 
   
 - The second file generated, 'ProjectResult2.txt' should be identical to the file loaded to project link.
   You can use read.table command to load them to R for further verification
@@ -65,18 +65,18 @@ Implementation Details for Reviewer:
 - The implementation of this script is based on the project assignment and the TA's comments posted on discussion forum.
 
 - The implementation of "Extracts only the measurements on the mean and standard deviation for each measurement":
-  --> all the columns with name containing 'mean', 'std' or 'Mean'.
+  --> all the columns with names containing 'mean', 'std' or 'Mean' were kept
 
 - The implementation of "Uses descriptive activity names to name the activities in the data set":
-  --> the activity names listed in 'activity_labels.txt' from original dataset was used.
+  --> the activity names listed in 'activity_labels.txt' from original dataset were used.
  
 - The implementation of "Appropriately labels the data set with descriptive variable names":
   --> even in the slides from Week 3 lectures suggests using all lower case with no dots. 
 	  But after read TA's commands and considering the readability, I used underscores to separate words in the names
   
-##################################
-##  Thank you for the review!!!	##				   
-##################################
+
+##  Thanks for your review!!!					   
+
 
 
 Additional Notes: 
